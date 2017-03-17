@@ -1,0 +1,35 @@
+{
+  "name": "graphlookup",
+  "version": "0.0.1",
+  "description": "Looking up through a recursive array of objects",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "mocha --reporter spec"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ralstan-vaz/graphlookup.git"
+  },
+  "keywords": [
+    "graph",
+    "lookup",
+    "recursive",
+    "search"
+  ],
+  "author": "Ralstan Vaz",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ralstan-vaz/graphlookup/issues"
+  },
+  "homepage": "https://github.com/ralstan-vaz/graphlookup#readme",
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "mocha": "^3.2.0"
+  },
+  "dependencies": {
+    "debug": "2.6.3"
+  }
+}

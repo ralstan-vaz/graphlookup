@@ -25,6 +25,12 @@ function lookup(src, lookupDoc, connectFrom, connectTo, as, maxDepth) {
       }
       // Change the connect from to matched document
       connectFromVal = doc[connectFrom];
+
+      // check if connectFromVal exist
+      if (connectFromVal === undefined) {
+        break;
+      }
+
       i = -1
     }
   }
